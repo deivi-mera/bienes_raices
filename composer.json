@@ -1,0 +1,22 @@
+{
+    "name": "deivi/bienesraices",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "Deivi Mera",
+            "email": "deivi.mera@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    }
+
+}
